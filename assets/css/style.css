@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     padding: 1%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: darkolivegreen;
     color: white;
 }
 
@@ -46,7 +46,7 @@ li a {
   }
   
   li a:hover {
-    background-color: black;
+    background-color: darkgray;
   }
   main {
     display: flex-center;
@@ -63,3 +63,9 @@ li a {
     border-bottom: 1px solid black;
   }
   
+  
+
+footer {
+  display: flex;
+  justify-content: center;
+}

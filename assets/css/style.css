@@ -1,9 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
-    font-size: 16px;
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -14,7 +16,7 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+    display: flex;
     font-size: 48px;
 }
 
@@ -44,6 +46,20 @@ li a {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: black;
   }
-
+  main {
+    display: flex-center;
+    flex: 1 1 0;
+    margin: 2% auto;
+  }
+  
+  section {
+    flex: 1 1 0;
+    padding-right: 5%;
+  }
+  
+  article {
+    border-bottom: 1px solid black;
+  }
+  

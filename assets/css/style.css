@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@ body {
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* set header to flex, justified space & set colors*/
 header {
     display: flex;
     justify-content: space-between;
@@ -19,7 +20,7 @@ header h1 {
     display: flex;
     font-size: 48px;
 }
-
+/* set header & font */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -27,7 +28,7 @@ header nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
 }
-
+/* removed bullets*/
 header nav ul {
     list-style-type: none;
 }
@@ -44,7 +45,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+  /* color changes on hover of list items */
   li a:hover {
     background-color: darkgray;
   }
@@ -62,7 +63,7 @@ li a {
   article {
     border-bottom: 1px solid black;
   }
-  
+  /* removed bullets & set display of contact me list*/
   .contactme_ul {
   list-style-type: none;
   display: flex;
@@ -70,8 +71,15 @@ li a {
   justify-content: space-evenly;
   }
 
-
 footer {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+  
 }
